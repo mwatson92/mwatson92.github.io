@@ -1,7 +1,110 @@
-html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
- <My personal Page>
-<h1> Marche Watson <h1>
-<img src="project_image.jpg" alt="woman in jacket">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marche Watson | Cybersecurity Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Marche Watson</h1>
+    <p class="tagline">Aspiring Cybersecurity Analyst | Defender of Digital Frontiers</p><img src="project_image.jpg" alt="woman in jacket">
+
+  </header>
+
+  <nav>
+    <a href="#about">Home</a>
+    <a href="#skills">Skills & Tools</a>
+    <a href="#education">Education & Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello, my name is <strong>Marche Watson</strong>. I am a dedicated cybersecurity student based in Chicago with a strong passion for protecting information systems, analyzing vulnerabilities, and defending against cyber threats. My education and experience have equipped me with skills in network defense, ethical hacking, and information security management.
+    </p>
+    <p>
+      I am currently pursuing an <strong>Associate in Applied Science in Cybersecurity</strong> at Olive-Harvey College, maintaining a 3.9 GPA. I have earned both a Basic and Advanced Certificate in Cybersecurity and plan to continue developing my technical and analytical skills to prepare for a career as a Cybersecurity Analyst.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <h3>Core Competencies</h3>
+        <ul>
+          <li>Network Security and Threat Analysis</li>
+          <li>Incident Response and Cybercrime Investigation</li>
+          <li>Ethical Hacking and Vulnerability Assessment</li>
+          <li>Cloud Security (AWS, Azure)</li>
+        </ul>
+      </div>
+
+      <div class="skill">
+        <h3>Technical Tools</h3>
+        <ul>
+          <li>Wireshark, Nmap, Burp Suite, Metasploit</li>
+          <li>Cisco Packet Tracer, Splunk, VirtualBox</li>
+          <li>Linux, Windows, macOS</li>
+        </ul>
+      </div>
+
+      <div class="skill">
+        <h3>Programming and Scripting</h3>
+        <ul>
+          <li>Python, SQL, Bash</li>
+          <li>Web Development: HTML, CSS, JavaScript</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education & Certifications</h2>
+
+    <div class="edu-item">
+      <h3>Olive-Harvey College – Chicago, IL</h3>
+      <p><strong>Associate in Applied Science in Cybersecurity</strong><br>
+      Anticipated Graduation: December 2025<br>
+      GPA: 3.9 / 4.0</p>
+    </div>
+
+    <div class="edu-item">
+      <h3>Advanced Certificate in Cybersecurity</h3>
+      <p>Completed May 2025 — Olive-Harvey College</p>
+    </div>
+
+    <div class="edu-item">
+      <h3>Basic Certificate in Cybersecurity</h3>
+      <p>Completed December 2024 — Kennedy-King College</p>
+    </div>
+
+    <div class="edu-item">
+      <h3>Relevant Coursework</h3>
+      <ul>
+        <li>Fundamentals of Programming</li>
+        <li>Networking Essentials</li>
+        <li>Information Security Essentials</li>
+        <li>Cybercrime and Incident Response</li>
+        <li>Ethical Hacking</li>
+        <li>Scripting for Cybersecurity</li>
+        <li>Cloud Computing and Services</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Location: Chicago, Illinois</p>
+    <p>Email: <a href="mailto:mwatson92@student.ccc.edu">mwatson92@student.ccc.edu</a></p>
+    <p>GitHub: <a href="https://github.com/mwatson92" target="_blank">github.com/mwatson92</a>
+  </section>
+
+  <footer>
+    <p>2025 Marche Watson | Built with cybersecurity precision and professionalism.</p>
+  </footer>
+</body>
+</html>
