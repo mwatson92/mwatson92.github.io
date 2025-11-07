@@ -57,6 +57,28 @@ nav a:hover {
   color: var(--accent-hover);
   text-decoration: underline;
 }
+/* Cyber-glow hover effect */
+nav a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: var(--accent-hover);
+  box-shadow: 0 0 8px var(--accent-hover);
+  transition: width 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+  box-shadow: 0 0 12px var(--accent-hover), 0 0 24px var(--accent-hover);
+}
 
 /* Sections */
 section {
