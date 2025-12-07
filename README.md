@@ -5,4 +5,4 @@ The repository for my personal webpage
 <html>
 <head>
  <My personal Page>
-<img src="M_Watson_Profile_Pic.jpg" alt="woman in jacket">
+<img src="MWatson_Profile_Pic.jpg" alt="woman in jacket">
